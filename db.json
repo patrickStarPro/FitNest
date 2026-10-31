@@ -1,0 +1,20 @@
+{
+  "fitness-form": [
+    {
+      "name": "Chandigarh Chunda",
+      "contactNo": "9999999999",
+      "duration": "8",
+      "fitnessGoal": "Muscle Gain",
+      "preferredTime": "Morning",
+      "id": 1002
+    },
+    {
+      "name": "Merut Munda",
+      "contactNo": "8888888889",
+      "duration": "99",
+      "fitnessGoal": "Cardiovascular Health",
+      "preferredTime": "Morning",
+      "id": 1003
+    }
+  ]
+}

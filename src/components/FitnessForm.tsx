@@ -6,7 +6,7 @@ import { Messages } from "../messages/Messages";
 import axios from "axios";
 import { Validator } from "../validators/Validation"; 
 
-const FitnessForm: FC = () => {
+const FitnessForm: FC = () => { 
   const [state, setState] = useState<fitnessFormState>({
     name: "",
     contactNo: "",
@@ -17,6 +17,13 @@ const FitnessForm: FC = () => {
   });
 
   const fitnessGoalList: string[] = [
+    "Weight Loss",
+    "Muscle Gain",
+    "Endurance",
+    "Cardiovascular Health",
+  ];
+
+    const newArray: string[] = [
     "Weight Loss",
     "Muscle Gain",
     "Endurance",
